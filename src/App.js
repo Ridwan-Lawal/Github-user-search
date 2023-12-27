@@ -179,7 +179,7 @@ function Form({ userSearch, onChange, isDarkMode, onGetProfile, onResetForm }) {
     <form
       onSubmit={handleSubmit}
       action=""
-      className={`bg-white mt-8 py-1.5 shadow-xl pl-5 pr-2 rounded-xl ${
+      className={` mt-8 py-1.5 shadow-xl pl-5 pr-2 rounded-xl ${
         isDarkMode
           ? "bg-darkModeBodyColor shadow-gray-900"
           : "bg-white shadow-blue-100"
